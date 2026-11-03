@@ -1,24 +1,33 @@
 # Roadmap de carreira
 
-**Meta inicial:** disputar vagas de Engenharia de Dados Júnior com competências demonstráveis.
+**Meta inicial:** oportunidades de Engenheiro de Dados Júnior. **Evolução:** Data & AI Engineer com capacidade de construir serviços, pipelines, soluções de BI e produtos de IA.
 
-**Horizonte posterior:** atuar como Data & AI Engineer, integrando dados, software e IA.
+**Carga:** 10 horas semanais. **Horizonte de referência:** 36–48 semanas, com progressão por competências. Os marcos abaixo são técnicos, não datas fixas.
 
-## Marcos
+## Marcos de prontidão
 
-- **Semana 08:** Python + PostgreSQL + SQL intermediário + testes; entrevistas exploratórias.
-- **Semana 16:** ETL/ELT, modelagem, dbt, Airflow e qualidade; candidaturas direcionadas.
-- **Semana 22:** AWS, PySpark, Databricks, Delta Lake e governança; ampliar oportunidades.
-- **Semana 36:** portfólio de produto integrado com dados e IA.
+1. **Base de software e SQL:** Python, algoritmos, estruturas de dados, POO, Git, Pytest, SQL, PostgreSQL e organização de projetos.
+2. **Integração e coleta:** FastAPI, REST, scraping/crawling robustos, Scrapy, ETL/ELT, testes, qualidade e contratos.
+3. **Pipelines e plataforma:** modelagem dimensional, dbt, Airflow, Docker, AWS, Spark, Databricks e Delta Lake.
+4. **Analytics e operação:** Power BI, Power Query, DAX avançado, RLS, CI/CD, Kafka, observabilidade e segurança.
+5. **Produto e IA:** LLMs, RAG, agentes, avaliação, FinData AI, documentação e apresentações técnicas.
 
-Esses marcos não garantem contratação. Revisar anúncios de vagas a cada quatro semanas e ajustar lacunas técnicas.
+Comece a acompanhar vagas e praticar entrevistas ao concluir a base de Python/SQL; intensifique candidaturas conforme a qualidade das entregas, sem esperar necessariamente o fim do curso.
 
-## Checklist de entrevista
+## Checklist técnico
 
-- [ ] Resolver consultas SQL com JOIN, CTE e window functions
-- [ ] Explicar cargas incrementais e idempotência
-- [ ] Debugar uma DAG com falha
-- [ ] Demonstrar testes e logs de pipeline
-- [ ] Comparar Data Lake, Warehouse e Lakehouse
-- [ ] Explicar segurança e custos de cloud
-- [ ] Apresentar arquitetura, trade-offs e impacto de um projeto
+- [ ] Resolver JOIN, CTE, window functions e analisar desempenho de SQL
+- [ ] Escrever Python modular com testes unitários e de integração
+- [ ] Explicar POO, separação de responsabilidades e decisões arquiteturais
+- [ ] Construir e documentar API com validação e tratamento de falhas
+- [ ] Implementar crawler responsável com paginação, retries e persistência
+- [ ] Projetar ETL incremental e idempotente com qualidade de dados
+- [ ] Operar e depurar DAGs no Airflow
+- [ ] Explicar Data Lake, Warehouse, Lakehouse e arquitetura Medallion
+- [ ] Demonstrar projeto Spark/Databricks/Delta Lake
+- [ ] Construir dashboard Power BI com DAX, Power Query e RLS
+- [ ] Aplicar CI/CD, logs e práticas de segurança
+- [ ] Explicar um produto com RAG/LLM e suas avaliações
+- [ ] Apresentar arquitetura, trade-offs e impacto de projetos
+
+Os marcos não garantem contratação. Revisar requisitos reais de vagas periodicamente.
