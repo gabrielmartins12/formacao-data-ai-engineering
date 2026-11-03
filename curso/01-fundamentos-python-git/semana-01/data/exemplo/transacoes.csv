@@ -1,0 +1,9 @@
+id,banco,data,descricao,categoria,valor
+1,Nubank,2026-10-01,Salario,Receita,4500.00
+2,Itau,2026-10-02,Supermercado,Alimentacao,-320.50
+3,Santander,2026-10-03,Uber,Transporte,-28.90
+4,Nubank,2026-10-04,Netflix,Assinaturas,-44.90
+5,Itau,2026-10-05,Restaurante,Alimentacao,-85.00
+6,Santander,2026-10-06,Combustivel,Transporte,-180.00
+7,Nubank,2026-10-07,Freelance,Receita,750.00
+8,Itau,2026-10-08,Internet,Moradia,-110.00
