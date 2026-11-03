@@ -1,40 +1,32 @@
-# Progresso do curso
+# Progresso da formação
 
-Marque `[x]` após entregar e receber revisão da semana.
+**Carga:** 10h/semana. **Ritmo:** adaptativo. **Estado inicial:** nenhuma competência ou avaliação registrada como concluída.
 
-- [ ] Semana 01 — Linux, terminal e Git
-- [ ] Semana 02 — Python essencial
-- [ ] Semana 03 — Python para dados
-- [ ] Semana 04 — Qualidade de software
-- [ ] Semana 05 — SQL básico e PostgreSQL
-- [ ] Semana 06 — SQL intermediário
-- [ ] Semana 07 — Modelagem e performance
-- [ ] Semana 08 — Python + PostgreSQL
-- [ ] Semana 09 — APIs e integração
-- [ ] Semana 10 — Web Scraping e Crawling
-- [ ] Semana 11 — ETL e ELT
-- [ ] Semana 12 — Qualidade e contratos de dados
-- [ ] Semana 13 — Data Warehouse
-- [ ] Semana 14 — dbt
-- [ ] Semana 15 — Apache Airflow
-- [ ] Semana 16 — Airflow e operação
-- [ ] Semana 17 — Fundamentos AWS
-- [ ] Semana 18 — Serviços de dados AWS
-- [ ] Semana 19 — Apache Spark
-- [ ] Semana 20 — Databricks Essentials
-- [ ] Semana 21 — Delta Lake e Medallion
-- [ ] Semana 22 — Databricks Engineering
-- [ ] Semana 23 — Docker e CI/CD
-- [ ] Semana 24 — Observabilidade e incidentes
-- [ ] Semana 25 — Apache Kafka
-- [ ] Semana 26 — Streaming aplicado
-- [ ] Semana 27 — Power BI e métricas
-- [ ] Semana 28 — API de dados
-- [ ] Semana 29 — Fundamentos de IA
-- [ ] Semana 30 — RAG e busca
-- [ ] Semana 31 — Agentes e ferramentas
-- [ ] Semana 32 — Avaliação de IA
-- [ ] Semana 33 — Integração de produto
-- [ ] Semana 34 — Arquitetura e segurança
-- [ ] Semana 35 — Portfólio e entrevistas
-- [ ] Semana 36 — Projeto final
+Os arquivos atuais em `curso/` ainda representam o plano inicial de 36 semanas. A trilha abaixo é a referência curricular atual; marque uma etapa como concluída somente após revisão e evidência.
+
+## Trilhas e competências
+
+- [ ] 1. Fundamentos: Linux, Git, Python, lógica, algoritmos, estruturas de dados
+- [ ] 2. Engenharia de Software: POO, SOLID, arquitetura, testes, PostgreSQL
+- [ ] 3. SQL e Backend: SQL avançado, FastAPI, REST, autenticação
+- [ ] 4. Aquisição de Dados: scraping, crawling, Scrapy, APIs, ETL/ELT
+- [ ] 5. Orquestração: modelagem, dbt, Airflow, Docker, qualidade
+- [ ] 6. Cloud e Lakehouse: AWS, Spark, Databricks, Delta Lake
+- [ ] 7. BI e Analytics: Power BI, Power Query, DAX, RLS, desempenho
+- [ ] 8. DataOps e Streaming: CI/CD, Kafka, observabilidade, segurança
+- [ ] 9. Engenharia de IA: LLMs, RAG, agentes, avaliações
+- [ ] 10. Produto e carreira: FinData AI, portfólio, entrevistas
+
+## Registro de avaliações
+
+| Data | Atividade / projeto | Evidência (PR/commit/testes) | Nota | Lacunas / próximo passo |
+|---|---|---|---:|---|
+| — | Nenhuma avaliação realizada | — | — | Iniciar diagnóstico e primeira atividade |
+
+## Critérios de avanço
+
+- Referência: nota >= 70/100, sem falhas críticas e com domínio dos pré-requisitos.
+- Domínio antecipado permite acelerar; lacunas geram reforço.
+- Nunca marcar concluído apenas por passagem do tempo ou execução sem revisão.
+
+Veja `docs/METODOLOGIA.md` e `docs/ROADMAP-CARREIRA.md`.
