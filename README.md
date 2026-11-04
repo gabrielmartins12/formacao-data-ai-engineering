@@ -42,6 +42,8 @@
 
 ## Referências
 
+- [Ementa detalhada: 48 semanas, aulas, laboratórios e avaliações](docs/EMENTA-DETALHADA-48-SEMANAS.md)
+
 - [Metodologia](docs/METODOLOGIA.md)
 - [Roadmap de carreira](docs/ROADMAP-CARREIRA.md)
 - [Codex como mentor](docs/CODEX-MENTOR.md)
