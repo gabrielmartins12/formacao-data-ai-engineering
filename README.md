@@ -13,10 +13,10 @@ O eixo central é Engenharia de Dados. Web scraping/crawling e BI são etapas in
 | Etapa | Semanas de referência | Conteúdos | Entrega |
 |---|---|---|---|
 | 1. Linux e Git | 1–3 | Terminal, permissões, Bash, Git/GitHub | Script de validação CSV |
-| 2. Python | 4–8 | Lógica, funções, coleções, CSV/JSON, exceções, testes | Processador de arquivos |
+| 2. Python | 4–8 | Lógica, funções, coleções, CSV/JSON, exceções, testes, **NumPy introdutório: arrays, tipos, indexação e operações vetorizadas** | Processador de arquivos e exercícios NumPy |
 | 3. SQL e PostgreSQL | 9–12 | JOIN, GROUP BY, CTE, janelas, modelagem relacional | Banco consultável |
 | 4. Coleta de dados | 13–16 | APIs, HTTP, HTML, Scrapy, Selenium, Playwright, paginação, limites e coleta responsável | Coletor robusto |
-| 5. ETL/ELT | 17–20 | Pandas, validação, cargas incrementais, modelagem dimensional | Pipeline Python → PostgreSQL |
+| 5. ETL/ELT | 17–20 | **NumPy aplicado: máscaras, agregações, valores ausentes e vetorização**, Pandas, validação, cargas incrementais, modelagem dimensional | Pipeline Python → PostgreSQL |
 | 6. Orquestração | 21–24 | Docker, Compose, Airflow, DAGs, logs, retries | Pipeline agendado |
 | 7. BI | 25–28 | Power BI, Power Query, DAX essencial, KPIs, dashboards | Dashboard analítico |
 | 8. Projeto integrador | 29–32 | Coleta → transformação → armazenamento → orquestração → BI; testes e documentação | Projeto ponta a ponta |
