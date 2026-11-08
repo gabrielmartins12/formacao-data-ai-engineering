@@ -1,31 +1,43 @@
-# Progresso — Engenharia de Dados
+# Progresso — Software & Data Engineering
 
-**Carga:** 10 horas semanais. **Ritmo:** adaptativo. **Referência:** 36 semanas.
+**Status:** programa atualizado; diagnóstico inicial pendente. **Carga:** 10h/semana. **Critério:** evidência prática, não presença em aula.
 
-## Etapas
+## Histórico anterior preservado
+- Linux/terminal: teoria e exercícios já iniciados.
+- Exercício Linux 01: 75/100, registrado em conversa; PR não verificado.
+- Exercício Linux/Bash 02: 85/100, registrado em conversa; PR não verificado.
+- Pontos a reforçar: find, grep, variáveis e scripts Bash.
+- Laboratório CSV com Shell era a próxima atividade. Reaproveitar no módulo 3 ou no diagnóstico; não descartar progresso.
+- Plano e arquivos antigos preservados na branch backup/plano-36-semanas-2026-11.
 
-- [ ] 1. Linux, Bash e Git (1–3)
-- [ ] 2. Python e NumPy (4–8)
-- [ ] 3. SQL e PostgreSQL (9–12)
-- [ ] 4. APIs, Scrapy, Selenium e Playwright (13–16)
-- [ ] 5. ETL/ELT, NumPy, Pandas e modelagem dimensional (17–20)
-- [ ] 6. Docker e Airflow (21–24)
-- [ ] 7. Spark, PySpark, Databricks, Delta Lake e Medallion (25–28)
-- [ ] 8. Power BI, Power Query e DAX (29–32)
-- [ ] 9. Projeto integrador de dados (33–36)
+## Diagnóstico
+- [ ] Python/lógica
+- [ ] Linux/Bash
+- [ ] Git
+- [ ] SQL
+- [ ] Registrar lacunas e nível observado
 
-## Histórico preservado
+## Sprints
+- [ ] Semana 01 — Fundamentos de Python, Linux e Git — entrega: Classificador de transações no terminal
+- [ ] Semana 02 — Lógica, estruturas de dados e funções — entrega: Resumo por categoria sem dependências externas
+- [ ] Semana 03 — CSV, Bash, erros e testes — entrega: Importador CSV com relatório de rejeições e testes
+- [ ] Semana 04 — SQL, PostgreSQL e modelagem — entrega: Schema de transações/categorias e consultas verificáveis
+- [ ] Semana 05 — Pipeline Python + PostgreSQL — entrega: Carga CSV → PostgreSQL sem duplicação
+- [ ] Semana 06 — HTTP, API e arquitetura backend — entrega: API para consultar totais por período e categoria
+- [ ] Semana 07 — Confiabilidade, Linux e Docker — entrega: Pipeline reproduzível com logs, testes e README
+- [ ] Semana 08 — Consolidação e autonomia — entrega: MVP FinData AI demonstrável e avaliação 0–100
 
-- Linux/terminal: fundamentos teóricos iniciados.
-- Exercício 01: 75/100 (registro histórico em conversa, sem PR verificado).
-- Exercício 02: 85/100 (registro histórico em conversa, sem PR verificado).
-- Reforçar `find`, `grep`, variáveis e scripts Bash.
-- **Próximo passo:** laboratório de validação de CSV com Shell.
+## Avaliações quinzenais
+| Semana | Nota /100 | Evidência (commit/PR/testes) | Lacunas | Decisão |
+|---|---:|---|---|---|
+| 2 | — | — | — | Pendente |
+| 4 | — | — | — | Pendente |
+| 6 | — | — | — | Pendente |
+| 8 | — | — | — | Pendente |
 
-| Atividade | Nota | Evidência | Situação |
-|---|---:|---|---|
-| Exercício 01 — Linux | 75 | Conversa; PR pendente | Revisar |
-| Exercício 02 — Linux/Bash | 85 | Conversa; PR pendente | Revisar |
-| Laboratório de validação CSV | — | — | Próximo |
+## Diário de estudo
+| Data | Aula/tarefa | O que fiz sem IA | Erros e correções | Evidência |
+|---|---|---|---|---|
+| — | Diagnóstico inicial | — | — | — |
 
-Concluir competências somente após avaliação prática e evidência revisada. Referência de aprovação: >=70/100, sem falhas críticas.
+**Não preencher notas, commits ou conclusão sem verificação.**

@@ -1,41 +1,37 @@
-# Formação em Engenharia de Dados
+# Software & Data Engineering Foundations
 
-Trilha prática para desenvolver competências de **Engenharia de Dados Júnior**, incluindo coleta, processamento, orquestração, Lakehouse e entrega analítica.
+Programa intensivo e prático de **Desenvolvimento de Software + Engenharia de Dados**, com **Linux e Git transversais**.
 
-**Dedicação:** 10 horas/semana. **Referência:** 36 semanas, com avanço por competência.
+- **Duração de referência:** 8 semanas, 10 h/semana (~80 h).
+- **Método:** Just-in-Time, desafios reais, fundamentos obrigatórios e avaliações quinzenais.
+- **Projeto autoral:** FinData AI, começando com transações sintéticas e evoluindo de CSV para PostgreSQL e API.
+- **Laboratório profissional:** SUPOS (Go/Vue/PostgreSQL/Docker), apenas para estudo autorizado de arquitetura, consultas, APIs e testes.
+- **Resultado-alvo:** implementar, testar, depurar e explicar uma pequena aplicação de dados com autonomia. Não garante nível pleno ou contratação.
 
-## Escopo
+## Comece aqui
 
-O eixo central é Engenharia de Dados. Web scraping, BI e Databricks/PySpark são componentes integrados da formação, não trilhas paralelas. IA/LLMs, RAG, desenvolvimento web, Kafka e cloud avançada ficam para uma fase futura.
+1. Leia [regras de mentoria](AGENTS.md).
+2. Faça o [diagnóstico inicial](avaliacoes/DIAGNOSTICO.md); não presuma nível zero nem pule fundamentos sem evidência.
+3. Abra a [Semana 1](aulas/semana-01/README.md) e siga as quatro aulas.
+4. Registre evidências em [PROGRESSO.md](PROGRESSO.md).
+5. Use o [roteiro geral](ROADMAP.md) para acompanhar os oito módulos.
 
-## Roadmap
+## Conteúdos
 
-| Etapa | Semanas de referência | Conteúdos | Entrega |
-|---|---|---|---|
-| 1. Linux e Git | 1–3 | Terminal, permissões, Bash, Git/GitHub | Script de validação CSV |
-| 2. Python | 4–8 | Lógica, funções, CSV/JSON, exceções, testes, NumPy: arrays, indexação e vetorização | Processador de arquivos |
-| 3. SQL e PostgreSQL | 9–12 | JOIN, GROUP BY, CTE, janelas, modelagem relacional | Banco consultável |
-| 4. Coleta de dados | 13–16 | APIs, HTTP, Scrapy, Selenium, Playwright, paginação e coleta responsável | Coletor robusto |
-| 5. ETL/ELT | 17–20 | NumPy aplicado, Pandas, validação, cargas incrementais, modelagem dimensional | Pipeline Python → PostgreSQL |
-| 6. Orquestração | 21–24 | Docker, Compose, Airflow, DAGs, logs e retries | Pipeline agendado |
-| 7. Spark e Databricks | 25–28 | Spark, PySpark DataFrames, joins, agregações, Databricks notebooks/jobs, Delta Lake, MERGE, arquitetura Medallion (Bronze/Silver/Gold) e otimização introdutória | Pipeline Lakehouse |
-| 8. BI | 29–32 | Power BI, Power Query, DAX essencial, KPIs e dashboards | Dashboard analítico |
-| 9. Projeto integrador | 33–36 | Coleta → ETL → PostgreSQL/Delta Lake → Airflow → BI; testes e documentação | Projeto ponta a ponta |
+**Engenharia de Software:** lógica, Python, algoritmos, funções, módulos, Git, Linux, Bash, redes/HTTP, APIs, testes, debugging, arquitetura básica, Docker e documentação.
 
-## Método
+**Engenharia de Dados:** CSV, tipos, qualidade, SQL, PostgreSQL, modelagem relacional, ingestão, ETL, idempotência, consultas, logs e automação.
 
-Teoria, laboratório guiado, desafio independente, revisão, testes e avaliação (referência >=70/100 sem falhas críticas). Avançar por domínio, não apenas por semanas.
+**Depois, não agora:** Power BI/DAX, Airflow avançado, Spark, cloud, LLMs e Engenharia de IA. Só entram após avaliação e nova decisão.
 
-## Retomada
+## Regra de ouro
 
-Linux/Bash já iniciado, com avaliações teóricas anteriores. Próximo passo: laboratório de validação CSV com Shell. Não reiniciar nem descartar o histórico.
+A IA pode ensinar e dar pistas, mas não antecipará soluções em desafios de autonomia. Avançar por competência demonstrada, não apenas por calendário.
 
-## Documentação
+## Segurança
 
-- [Progresso](PROGRESSO.md)
-- [Orientações ao mentor](AGENTS.md)
-- [Metodologia](docs/METODOLOGIA.md)
+Somente dados fictícios no repositório público. Nunca versionar credenciais, dados bancários reais, informações de colaboradores nem código privado do SUPOS. Não confundir produtividade assistida por IA com autonomia comprovada.
 
-> Documentos anteriores em `curso/` e `docs/` podem conter planos legados de 36–48 semanas. O roadmap acima é a referência vigente; preservar e adaptar materiais gradualmente.
+## Histórico
 
-Usar dados sintéticos, respeitar termos de uso e robots.txt, não publicar credenciais e verificar custos/limites antes de utilizar recursos Databricks.
+O plano anterior foi preservado na branch [backup/plano-36-semanas-2026-11](https://github.com/gabrielmartins12/formacao-data-ai-engineering/tree/backup/plano-36-semanas-2026-11), incluindo aulas e registros anteriores.
