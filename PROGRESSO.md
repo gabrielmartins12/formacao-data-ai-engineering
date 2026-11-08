@@ -1,32 +1,33 @@
-# Progresso da formação
+# Progresso — Engenharia de Dados
 
-**Carga:** 10h/semana. **Ritmo:** adaptativo. **Estado inicial:** nenhuma competência ou avaliação registrada como concluída.
+**Dedicação:** 10 horas semanais. **Ritmo:** adaptativo. **Meta:** competências de Engenharia de Dados Júnior.
 
-Os arquivos atuais em `curso/` ainda representam o plano inicial de 36 semanas. A trilha abaixo é a referência curricular atual; marque uma etapa como concluída somente após revisão e evidência.
+## Etapas
 
-## Trilhas e competências
+- [ ] 1. Linux, Bash e Git (semanas 1–3)
+- [ ] 2. Python e manipulação de arquivos (semanas 4–8)
+- [ ] 3. SQL e PostgreSQL (semanas 9–12)
+- [ ] 4. ETL/ELT e qualidade de dados (semanas 13–16)
+- [ ] 5. Docker e Airflow (semanas 17–20)
+- [ ] 6. Projeto integrador ponta a ponta (semanas 21–24)
 
-- [ ] 1. Fundamentos: Linux, Git, Python, lógica, algoritmos, estruturas de dados
-- [ ] 2. Engenharia de Software: POO, SOLID, arquitetura, testes, PostgreSQL
-- [ ] 3. SQL e Backend: SQL avançado, FastAPI, REST, autenticação
-- [ ] 4. Aquisição de Dados: scraping, crawling, Scrapy, APIs, ETL/ELT
-- [ ] 5. Orquestração: modelagem, dbt, Airflow, Docker, qualidade
-- [ ] 6. Cloud e Lakehouse: AWS, Spark, Databricks, Delta Lake
-- [ ] 7. BI e Analytics: Power BI, Power Query, DAX, RLS, desempenho
-- [ ] 8. DataOps e Streaming: CI/CD, Kafka, observabilidade, segurança
-- [ ] 9. Engenharia de IA: LLMs, RAG, agentes, avaliações
-- [ ] 10. Produto e carreira: FinData AI, portfólio, entrevistas
+## Progresso conhecido — Semana 01
 
-## Registro de avaliações
+- Linux/terminal: fundamentos teóricos iniciados; navegação, permissões e pipes estudados.
+- Exercício 01: **75/100**, conforme avaliação anterior em conversa.
+- Exercício 02: **85/100**, conforme avaliação anterior em conversa.
+- Pontos de reforço: `find`, `grep` avançado, variáveis e scripts Bash.
+- **Próximo passo:** Aula 02 — laboratório prático de validação de CSV com Shell.
+- As notas acima são registros históricos informados na conversa; links de commit/PR e validação prática no repositório ainda não foram confirmados.
 
-| Data | Atividade / projeto | Evidência (PR/commit/testes) | Nota | Lacunas / próximo passo |
-|---|---|---|---:|---|
-| — | Nenhuma avaliação realizada | — | — | Iniciar diagnóstico e primeira atividade |
+## Registro de evidências
+
+| Etapa | Atividade | Nota | Evidência | Estado |
+|---|---|---:|---|---|
+| 1 | Exercício 01 — Linux | 75 | Avaliação em conversa; PR pendente | Revisar |
+| 1 | Exercício 02 — Linux/Bash | 85 | Avaliação em conversa; PR pendente | Revisar |
+| 1 | Laboratório de validação de CSV | — | — | Próximo |
 
 ## Critérios de avanço
 
-- Referência: nota >= 70/100, sem falhas críticas e com domínio dos pré-requisitos.
-- Domínio antecipado permite acelerar; lacunas geram reforço.
-- Nunca marcar concluído apenas por passagem do tempo ou execução sem revisão.
-
-Veja `docs/METODOLOGIA.md` e `docs/ROADMAP-CARREIRA.md`.
+Nota de referência >= 70/100, sem falhas críticas, com domínio dos pré-requisitos e evidência prática revisada. Nenhuma etapa inteira é considerada concluída somente por uma nota teórica.
