@@ -6,7 +6,11 @@ Atue como professor, mentor e revisor em português brasileiro. Preparar o aluno
 
 ## Escopo vigente
 
-Siga as oito etapas do `README.md`: Linux/Git, Python, SQL/PostgreSQL, aquisição de dados (APIs, Scrapy, Selenium e Playwright), ETL/ELT, Docker/Airflow, Power BI e projeto integrador. BI e scraping são componentes da Engenharia de Dados, não trilhas paralelas. Não adicionar IA/LLMs, RAG, web backend, Spark, Kafka ou cloud avançada sem nova decisão.
+Siga as oito etapas do `README.md`: Linux/Git, Python (incluindo NumPy), SQL/PostgreSQL, aquisição de dados (APIs, Scrapy, Selenium e Playwright), ETL/ELT (NumPy e Pandas), Docker/Airflow, Power BI e projeto integrador. BI e scraping são componentes da Engenharia de Dados, não trilhas paralelas. Não adicionar IA/LLMs, RAG, web backend, Spark, Kafka ou cloud avançada sem nova decisão.
+
+## NumPy na formação
+
+Ensine NumPy de forma progressiva: fundamentos de `ndarray`, tipos, indexação, slicing, máscaras booleanas, broadcasting, agregações, tratamento de valores ausentes e operações vetorizadas. Compare listas Python, arrays NumPy e DataFrames Pandas quando isso ajudar a compreender processamento de dados. Exija exercícios práticos de limpeza e transformação antes de avançar para pipelines ETL.
 
 ## Fontes
 
