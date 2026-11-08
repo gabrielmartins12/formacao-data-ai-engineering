@@ -1,58 +1,44 @@
-# Formação Data & AI Engineering
+# Formação em Engenharia de Dados
 
-> Formação prática, orientada por competências, para buscar oportunidades como **Engenheiro de Dados Júnior** e evoluir para **Data & AI Engineer**.
+Trilha prática e progressiva para desenvolver as competências fundamentais de um **Engenheiro de Dados Júnior**.
 
-**Carga:** 10 horas por semana. **Horizonte de referência:** 36–48 semanas (360–480 horas), ajustável conforme domínio demonstrado. Não há promessa de conclusão ou contratação em prazo fixo.
+**Dedicação:** 10 horas por semana. **Referência:** 24 semanas, com avanço por competência (não por calendário).
 
-**Ênfase de planejamento:** Engenharia de Dados 50%, Engenharia de Software 30%, Engenharia de IA 20%. São proporções aproximadas; atividades de BI, scraping e crawling integram a trilha de Dados.
+## Escopo atual
 
-## Como estudar
+Foco exclusivo em Engenharia de Dados. IA/LLMs, RAG, aplicações web, BI/Power BI, scraping avançado, streaming, Spark e cloud ficam fora desta etapa inicial. Poderão ser adicionados futuramente, após consolidação dos fundamentos.
 
-1. Consulte `AGENTS.md`, `PROGRESSO.md` e o plano da atividade.
-2. Aprenda o contexto e os fundamentos; use a skill `programming-tutor` no Codex.
-3. Implemente o laboratório em passos pequenos e verificáveis.
-4. Resolva o desafio independente antes de solicitar a solução.
-5. Execute testes, documente decisões e abra um pull request para revisão.
-6. Registre a avaliação e avance por **competência**, não apenas por tempo.
+## Roadmap
 
-## Trilha curricular revisada
+| Etapa | Semanas de referência | Conteúdos | Entrega |
+|---|---|---|---|
+| 1. Linux e Git | 1–3 | Terminal, sistema de arquivos, permissões, Bash, Git/GitHub | Script de validação de CSV |
+| 2. Python | 4–8 | Lógica, funções, coleções, arquivos CSV/JSON, exceções, módulos e testes | Processador de arquivos |
+| 3. SQL e PostgreSQL | 9–12 | SELECT, JOIN, GROUP BY, CTE, janelas, modelagem relacional | Banco de dados com consultas analíticas |
+| 4. ETL/ELT | 13–16 | APIs, ingestão, Pandas, transformação, validação, cargas incrementais | Pipeline Python → PostgreSQL |
+| 5. Docker e Airflow | 17–20 | Containers, Compose, DAGs, agendamento, logs e reprocessamento | Pipeline orquestrado |
+| 6. Projeto integrador | 21–24 | Integração, testes, documentação, qualidade e observabilidade básica | Projeto de dados ponta a ponta |
 
-| Fase | Conteúdo |
-|---|---|
-| 1. Fundamentos | Linux, Git, Python, lógica, algoritmos e estruturas de dados |
-| 2. Engenharia de Software | POO, SOLID, arquitetura, testes, PostgreSQL e boas práticas |
-| 3. SQL e Backend | SQL avançado, FastAPI, REST, validação e autenticação |
-| 4. Aquisição de Dados | Web Scraping e Crawling **aprofundados**, Scrapy, APIs, ETL/ELT |
-| 5. Orquestração | Modelagem dimensional, dbt, Airflow, Docker, contratos e qualidade |
-| 6. Cloud e Lakehouse | AWS, PySpark, Databricks, Delta Lake, Medallion e governança |
-| 7. BI e Analytics | Power BI, Power Query, **DAX aprofundado**, RLS, performance e storytelling |
-| 8. DataOps e Streaming | CI/CD, GitHub Actions, Kafka, observabilidade e segurança |
-| 9. Engenharia de IA | LLMs, RAG, agentes, avaliações e integração em aplicações |
-| 10. Produto e carreira | FinData AI, portfólio, arquitetura, entrevistas e demonstrações |
+## Método de estudo
 
-**Importante:** os planos existentes em `curso/` são a versão inicial de 36 semanas e serão revisados progressivamente para refletir esta trilha. Não interprete seus números como uma sequência definitiva ou como módulos já concluídos.
+1. Explicação teórica e demonstração curta.
+2. Laboratório guiado, com código escrito e compreendido pelo aluno.
+3. Exercício independente, sem solução antecipada.
+4. Revisão, testes e avaliação de 0 a 100.
+5. Avanço após demonstrar domínio; referência mínima de 70/100 e ausência de falhas críticas.
 
-## Projetos de portfólio
+## Ponto de retomada
 
-- **FinData AI:** projeto integrador de engenharia de dados, backend, BI e IA; usar dados sintéticos nos laboratórios públicos.
-- **Web Intelligence Crawler:** coleta responsável, paginação, tolerância a falhas, persistência, testes e agendamento.
-- **Lakehouse Analytics:** Spark, Databricks, Delta Lake e governança.
-- **BI Analytics:** modelagem estrela, Power Query, DAX, RLS e dashboards executivos.
-- **AI Knowledge Assistant:** RAG com referências, avaliações e controles.
+A Semana 01 (Linux) já foi iniciada. Foram realizadas avaliações de teoria e tratamento de erros em Bash. A próxima atividade é o laboratório de validação de CSV com Shell. O progresso anterior não será descartado; a conclusão formal de cada competência depende de evidência revisada.
 
-## Referências
+## Documentos
 
-- [Ementa detalhada: 48 semanas, aulas, laboratórios e avaliações](docs/EMENTA-DETALHADA-48-SEMANAS.md)
-
-- [Metodologia](docs/METODOLOGIA.md)
-- [Roadmap de carreira](docs/ROADMAP-CARREIRA.md)
-- [Codex como mentor](docs/CODEX-MENTOR.md)
 - [Progresso](PROGRESSO.md)
+- [Orientações ao mentor](AGENTS.md)
+- [Metodologia](docs/METODOLOGIA.md)
 
-## Princípios
+> **Nota de migração:** documentos antigos em `curso/` e `docs/` podem conter o plano amplo de 36–48 semanas. São materiais legados, não o roadmap vigente. Adaptar gradualmente sem apagar exercícios ou histórico.
 
-Código legível e testável, revisão por PR, segurança, dados sintéticos e uso responsável de scraping (termos, robots.txt e limites de requisição). AWS e Databricks podem gerar custos: usar limites e monitoramento.
+## Segurança
 
-## Licença
-
-Material original sob licença MIT; conteúdos externos seguem suas próprias licenças.
+Utilizar dados fictícios nos exercícios. Não publicar credenciais, tokens ou dados pessoais.
