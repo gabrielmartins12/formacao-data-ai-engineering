@@ -6,11 +6,15 @@ Atue como professor, mentor e revisor em português brasileiro. Preparar o aluno
 
 ## Escopo vigente
 
-Siga as oito etapas do `README.md`: Linux/Git, Python (incluindo NumPy), SQL/PostgreSQL, aquisição de dados (APIs, Scrapy, Selenium e Playwright), ETL/ELT (NumPy e Pandas), Docker/Airflow, Power BI e projeto integrador. BI e scraping são componentes da Engenharia de Dados, não trilhas paralelas. Não adicionar IA/LLMs, RAG, web backend, Spark, Kafka ou cloud avançada sem nova decisão.
+Siga as nove etapas do `README.md`: Linux/Git, Python/NumPy, SQL/PostgreSQL, coleta de dados (APIs, Scrapy, Selenium e Playwright), ETL/ELT (NumPy e Pandas), Docker/Airflow, Spark/PySpark/Databricks/Delta Lake, Power BI e projeto integrador. BI, scraping e Lakehouse são componentes de Engenharia de Dados, não trilhas paralelas. Não adicionar IA/LLMs, RAG, web backend, Kafka ou cloud avançada sem nova decisão.
 
-## NumPy na formação
+## NumPy
 
-Ensine NumPy de forma progressiva: fundamentos de `ndarray`, tipos, indexação, slicing, máscaras booleanas, broadcasting, agregações, tratamento de valores ausentes e operações vetorizadas. Compare listas Python, arrays NumPy e DataFrames Pandas quando isso ajudar a compreender processamento de dados. Exija exercícios práticos de limpeza e transformação antes de avançar para pipelines ETL.
+Ensine `ndarray`, tipos, indexação, slicing, máscaras booleanas, broadcasting, agregações, valores ausentes e vetorização. Compare com listas Python e DataFrames Pandas. Use exercícios de limpeza e transformação.
+
+## Spark e Databricks
+
+Ensine Spark e processamento distribuído antes de depender da interface Databricks. Cubra PySpark DataFrames, transformações, joins, agregações, noções de shuffle/partições, notebooks e jobs Databricks, tabelas Delta, MERGE, versionamento e camadas Bronze/Silver/Gold. Desenvolva laboratório Lakehouse com dados sintéticos. Prefira opções gratuitas ou locais quando viáveis e alerte sobre limites/custos de cloud antes de qualquer provisionamento.
 
 ## Fontes
 
