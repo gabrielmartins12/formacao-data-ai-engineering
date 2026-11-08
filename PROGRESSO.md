@@ -1,17 +1,18 @@
 # Progresso — Engenharia de Dados
 
-**Carga:** 10 horas semanais. **Ritmo:** adaptativo. **Referência:** 32 semanas.
+**Carga:** 10 horas semanais. **Ritmo:** adaptativo. **Referência:** 36 semanas.
 
 ## Etapas
 
 - [ ] 1. Linux, Bash e Git (1–3)
-- [ ] 2. Python e arquivos (4–8)
+- [ ] 2. Python e NumPy (4–8)
 - [ ] 3. SQL e PostgreSQL (9–12)
 - [ ] 4. APIs, Scrapy, Selenium e Playwright (13–16)
-- [ ] 5. ETL/ELT, Pandas e modelagem dimensional (17–20)
+- [ ] 5. ETL/ELT, NumPy, Pandas e modelagem dimensional (17–20)
 - [ ] 6. Docker e Airflow (21–24)
-- [ ] 7. Power BI, Power Query e DAX (25–28)
-- [ ] 8. Projeto integrador de dados (29–32)
+- [ ] 7. Spark, PySpark, Databricks, Delta Lake e Medallion (25–28)
+- [ ] 8. Power BI, Power Query e DAX (29–32)
+- [ ] 9. Projeto integrador de dados (33–36)
 
 ## Histórico preservado
 
