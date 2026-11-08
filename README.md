@@ -1,44 +1,40 @@
 # Formação em Engenharia de Dados
 
-Trilha prática e progressiva para desenvolver as competências fundamentais de um **Engenheiro de Dados Júnior**.
+Trilha prática para desenvolver competências de **Engenharia de Dados Júnior**, incluindo aquisição de dados e entrega analítica.
 
-**Dedicação:** 10 horas por semana. **Referência:** 24 semanas, com avanço por competência (não por calendário).
+**Dedicação:** 10 horas/semana. **Referência:** 32 semanas, com avanço por competência.
 
-## Escopo atual
+## Escopo
 
-Foco exclusivo em Engenharia de Dados. IA/LLMs, RAG, aplicações web, BI/Power BI, scraping avançado, streaming, Spark e cloud ficam fora desta etapa inicial. Poderão ser adicionados futuramente, após consolidação dos fundamentos.
+O eixo central é Engenharia de Dados. Web scraping/crawling e BI são etapas integradas ao pipeline, não especializações paralelas. IA/LLMs, RAG, desenvolvimento web, Kafka, Spark e cloud avançada ficam para uma fase futura.
 
 ## Roadmap
 
 | Etapa | Semanas de referência | Conteúdos | Entrega |
 |---|---|---|---|
-| 1. Linux e Git | 1–3 | Terminal, sistema de arquivos, permissões, Bash, Git/GitHub | Script de validação de CSV |
-| 2. Python | 4–8 | Lógica, funções, coleções, arquivos CSV/JSON, exceções, módulos e testes | Processador de arquivos |
-| 3. SQL e PostgreSQL | 9–12 | SELECT, JOIN, GROUP BY, CTE, janelas, modelagem relacional | Banco de dados com consultas analíticas |
-| 4. ETL/ELT | 13–16 | APIs, ingestão, Pandas, transformação, validação, cargas incrementais | Pipeline Python → PostgreSQL |
-| 5. Docker e Airflow | 17–20 | Containers, Compose, DAGs, agendamento, logs e reprocessamento | Pipeline orquestrado |
-| 6. Projeto integrador | 21–24 | Integração, testes, documentação, qualidade e observabilidade básica | Projeto de dados ponta a ponta |
+| 1. Linux e Git | 1–3 | Terminal, permissões, Bash, Git/GitHub | Script de validação CSV |
+| 2. Python | 4–8 | Lógica, funções, coleções, CSV/JSON, exceções, testes | Processador de arquivos |
+| 3. SQL e PostgreSQL | 9–12 | JOIN, GROUP BY, CTE, janelas, modelagem relacional | Banco consultável |
+| 4. Coleta de dados | 13–16 | APIs, HTTP, HTML, Scrapy, Selenium, Playwright, paginação, limites e coleta responsável | Coletor robusto |
+| 5. ETL/ELT | 17–20 | Pandas, validação, cargas incrementais, modelagem dimensional | Pipeline Python → PostgreSQL |
+| 6. Orquestração | 21–24 | Docker, Compose, Airflow, DAGs, logs, retries | Pipeline agendado |
+| 7. BI | 25–28 | Power BI, Power Query, DAX essencial, KPIs, dashboards | Dashboard analítico |
+| 8. Projeto integrador | 29–32 | Coleta → transformação → armazenamento → orquestração → BI; testes e documentação | Projeto ponta a ponta |
 
-## Método de estudo
+## Método
 
-1. Explicação teórica e demonstração curta.
-2. Laboratório guiado, com código escrito e compreendido pelo aluno.
-3. Exercício independente, sem solução antecipada.
-4. Revisão, testes e avaliação de 0 a 100.
-5. Avanço após demonstrar domínio; referência mínima de 70/100 e ausência de falhas críticas.
+Teoria, laboratório guiado, desafio independente, revisão de código, testes e avaliação (referência >=70/100 sem falhas críticas). Avançar por domínio, não apenas por semanas.
 
-## Ponto de retomada
+## Retomada
 
-A Semana 01 (Linux) já foi iniciada. Foram realizadas avaliações de teoria e tratamento de erros em Bash. A próxima atividade é o laboratório de validação de CSV com Shell. O progresso anterior não será descartado; a conclusão formal de cada competência depende de evidência revisada.
+Linux/Bash já iniciado, com avaliações teóricas anteriores. Próximo passo: laboratório de validação CSV com Shell. Não reiniciar nem descartar o histórico.
 
-## Documentos
+## Documentação
 
 - [Progresso](PROGRESSO.md)
 - [Orientações ao mentor](AGENTS.md)
 - [Metodologia](docs/METODOLOGIA.md)
 
-> **Nota de migração:** documentos antigos em `curso/` e `docs/` podem conter o plano amplo de 36–48 semanas. São materiais legados, não o roadmap vigente. Adaptar gradualmente sem apagar exercícios ou histórico.
+> Documentos anteriores em `curso/` e `docs/` podem conter planos legados de 36–48 semanas. O roadmap acima é a referência vigente; preservar e adaptar materiais gradualmente.
 
-## Segurança
-
-Utilizar dados fictícios nos exercícios. Não publicar credenciais, tokens ou dados pessoais.
+Use dados sintéticos, respeite termos de uso e robots.txt em coleta, e nunca publique credenciais.
